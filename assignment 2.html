@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Login Page</title>
+    </head>
+    <body style="display:grid;">
+        <ul>
+            <li><a href="#home" class="actives">Home</a></li>
+            <li><a href="signin.html">Login</a></li>
+            <li><a href="signup.html">Registration</a></li>
+            <li><a  href="image_gallery.html">Image Gallery</a></li>
+          </ul>
+
+
+
+
+        <form style="margin-top: 20%; margin-left: 40%;">  
+            <label> Select Option </label>  
+            <select>  
+                <option value = "" >drop-down    
+                </option> 
+            <option value = "Home"> Home   
+            </option>  
+            <option value = "login"> login   
+            </option>  
+            <option value = "Register"> Registration
+            </option>  
+            <option value = "About"> About  
+            </option>  
+            </select>  
+            </form> 
+            <br>
+            <br>
+        <button type="button" onclick="window.location.href='signup.html'" name="signup" id="signup">Sign up</button>
+        <button type="button" onclick="window.location.href='signin.html'" name="signin" id="signin">Sign in</button>
+
+
+        <div class="pagination_section" >
+            <a href="#"><< Previous</a>
+            <a href="#" title="Page_1" class="active">1</a>
+            <a href="#" title="Page_2">2</a>
+            <a href="#" title="Page_3">3</a>
+            <a href="#" title="Page_4" >4</a>
+            <a href="#" title="Page_5">5</a>
+            <a href="#">Next >></a>
+        </div>
+
+    </body>
+</html>
